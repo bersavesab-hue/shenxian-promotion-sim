@@ -1,0 +1,10 @@
+[
+  {"id":"mortal","name":"凡人","level":0},
+  {"id":"qi_refining","name":"炼气","level":1},
+  {"id":"foundation","name":"筑基","level":2},
+  {"id":"immortal_official","name":"仙官","level":3},
+  {"id":"earth_immortal","name":"地仙","level":4},
+  {"id":"heaven_immortal","name":"天仙","level":5},
+  {"id":"golden_immortal","name":"金仙","level":6},
+  {"id":"great_luo","name":"大罗金仙","level":7}
+]
