@@ -21,6 +21,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
       - name: Setup JDK
         uses: actions/setup-java@v4
         with:
@@ -33,7 +36,9 @@ jobs:
           gradle-version: '8.4'
 
       - name: Check project
-        run: ls -la
+        run: |
+          ls -la
+          echo "ANDROID_HOME=$ANDROID_HOME"
 
       - name: Build Debug APK
         run: gradle assembleDebug --stacktrace --info
