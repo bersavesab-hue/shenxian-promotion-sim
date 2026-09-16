@@ -1,0 +1,10 @@
+{
+  "resources": [
+    {"id":"merit","name":"功德","usage":"个人晋升与考核"},
+    {"id":"incense","name":"香火","usage":"地方神职影响力"},
+    {"id":"heavenlyMerit","name":"天庭功勋","usage":"天庭体系评价"},
+    {"id":"salary","name":"仙禄","usage":"神职俸禄与日常消耗"},
+    {"id":"materials","name":"神材","usage":"神府、洞府、设施建设"},
+    {"id":"faith","name":"信仰","usage":"辖区稳定与神威"}
+  ]
+}
