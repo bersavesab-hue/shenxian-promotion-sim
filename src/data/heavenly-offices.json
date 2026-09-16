@@ -1,0 +1,18 @@
+[
+  {
+    "id": "land_deity",
+    "name": "土地神",
+    "grade": 9,
+    "department": "地方神司",
+    "authority": ["管理一方土地", "处理凡间祈愿"],
+    "promotionRequirement": ["功德", "香火", "天庭考核"]
+  },
+  {
+    "id": "city_guardian_officer",
+    "name": "城隍属官",
+    "grade": 7,
+    "department": "城隍司",
+    "authority": ["管理地方神务", "监察土地"],
+    "promotionRequirement": ["治理成绩", "上级推荐"]
+  }
+]
