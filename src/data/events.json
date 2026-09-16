@@ -1,0 +1,5 @@
+[
+  {"id":"help_mortal","type":"karma","name":"帮助凡人","reward":{"merit":10}},
+  {"id":"heaven_task","type":"promotion","name":"天庭任务","reward":{"reputation":5}},
+  {"id":"tribulation","type":"challenge","name":"渡劫考验","reward":{"rankChance":1}}
+]
