@@ -5,6 +5,7 @@ class GameCoordinator {
     private val engine = GameEngine()
     private val eventSystem = EventSystem()
     private val missionSystem = MissionSystem()
+    private val promotionSystem = PromotionSystem()
 
     fun advanceDay(): String {
         engine.advance(state)
@@ -13,7 +14,8 @@ class GameCoordinator {
         missionSystem.complete(mission)
         state.merit += mission.rewardMerit
         state.incense += mission.rewardIncense
-        return event + "\n" + state.summary()
+        val promotion = promotionSystem.check(state)
+        return event + "\n" + promotion + "\n" + state.summary()
     }
 
     fun getSummary(): String = state.summary()
