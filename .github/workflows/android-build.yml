@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'android/**'
+      - '.github/workflows/android-build.yml'
 
 jobs:
   build:
