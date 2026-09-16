@@ -1,0 +1,22 @@
+[
+  {
+    "id": "village_001",
+    "name": "凡间村落",
+    "level": "village",
+    "population": 300,
+    "stability": 70,
+    "prosperity": 40,
+    "incense": 20,
+    "disasters": 0
+  },
+  {
+    "id": "city_001",
+    "name": "凡间城池",
+    "level": "city",
+    "population": 10000,
+    "stability": 75,
+    "prosperity": 60,
+    "incense": 80,
+    "disasters": 0
+  }
+]
