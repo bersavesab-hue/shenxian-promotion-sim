@@ -1,0 +1,23 @@
+[
+  {
+    "id": "local-deity-office",
+    "name": "地方神司",
+    "type": "local",
+    "responsibilities": ["管理地方香火", "处理凡间祈愿", "维护地方秩序"],
+    "positions": ["土地神", "城隍属官"]
+  },
+  {
+    "id": "heaven-civil-office",
+    "name": "天庭文职体系",
+    "type": "department",
+    "responsibilities": ["记录功德", "审核任命", "管理天条事务"],
+    "positions": ["仙吏", "星官"]
+  },
+  {
+    "id": "heaven-military-office",
+    "name": "天庭军部",
+    "type": "department",
+    "responsibilities": ["巡查", "镇压妖邪", "执行天庭命令"],
+    "positions": ["天兵", "天将"]
+  }
+]
