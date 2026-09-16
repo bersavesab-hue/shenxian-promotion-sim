@@ -1,0 +1,7 @@
+[
+  {"id":"servant","name":"天庭杂役","rank":"mortal"},
+  {"id":"soldier","name":"天兵","rank":"qi_refining"},
+  {"id":"guardian","name":"天将","rank":"earth_immortal"},
+  {"id":"official","name":"仙官","rank":"heaven_immortal"},
+  {"id":"minister","name":"天庭重臣","rank":"golden_immortal"}
+]
