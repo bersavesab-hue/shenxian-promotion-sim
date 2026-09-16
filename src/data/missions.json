@@ -1,0 +1,26 @@
+[
+  {
+    "id": "local_prayer_001",
+    "name": "回应百姓祈愿",
+    "type": "daily",
+    "description": "处理辖区内普通祈愿事务",
+    "requirements": {"positionLevel": 9},
+    "rewards": {"merit": 10, "incense": 5, "reputation": 2}
+  },
+  {
+    "id": "disaster_relief_001",
+    "name": "治理地方灾害",
+    "type": "annual",
+    "description": "解决影响辖区稳定的灾害事件",
+    "requirements": {"governance": 60},
+    "rewards": {"merit": 50, "heavenlyCredit": 10, "reputation": 15}
+  },
+  {
+    "id": "demon_suppression_001",
+    "name": "平定妖邪事件",
+    "type": "special",
+    "description": "完成特殊天庭任务，获得功绩评价",
+    "requirements": {"positionLevel": 5},
+    "rewards": {"merit": 200, "heavenlyCredit": 50}
+  }
+]
