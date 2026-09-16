@@ -1,0 +1,24 @@
+[
+  {
+    "id": "land_request_001",
+    "category": "petition",
+    "title": "凡间百姓祈雨",
+    "description": "辖区遭遇旱情，百姓向地方神司求助。",
+    "requiredPosition": "土地神",
+    "effects": {
+      "merit": 10,
+      "incense": 8,
+      "reputation": 5
+    }
+  },
+  {
+    "id": "assessment_001",
+    "category": "assessment",
+    "title": "天庭年度考核",
+    "description": "地方神职接受天庭考核，评价治理成果。",
+    "effects": {
+      "merit": 5,
+      "reputation": 3
+    }
+  }
+]
